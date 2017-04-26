@@ -17,3 +17,8 @@ Describe the differences between forks, clones, and branches. When would you use
 	When developing new features, fixing bugs, refactoring code, etc. I usually use branches.
 	When I collaborate with others I would use a clone.
 	If I want to change another person's code without affecting the other person's Git repository, I would fork that persons repository.
+	
+What is the benefit of having a copy of the last known state of the remote stored locally?
+	
+	The local and remote repositories can be merged easily (even offline - if necessary). If you made mistakes when merging those mistakes
+	can be corrected without being pushed to the remote repository.
